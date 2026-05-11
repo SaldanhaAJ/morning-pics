@@ -14,9 +14,32 @@ An [OpenClaw](https://openclaw.ai) skill that sends 3 random photos from your Pi
 
 - [OpenClaw](https://openclaw.ai) with a connected WhatsApp account
 - Node.js 18+
+- Git
 - A folder of photos
 
+## Before you start
+
+If you haven't done these before, do them once:
+
+**1. Install OpenClaw**
+Follow the guide at [openclaw.ai](https://openclaw.ai) and connect your WhatsApp account before continuing.
+
+**2. Install Node.js**
+Download and run the installer for your system from [nodejs.org](https://nodejs.org) — pick the **LTS** version. When it's done, you should be able to open a terminal and type `node --version` without getting an error.
+
+**3. Install Git**
+- **Mac**: Git is usually already installed. Open Terminal (press `⌘ Space`, type *Terminal*, press Enter) and type `git --version`. If it prompts you to install developer tools, click Install.
+- **Windows**: Download from [git-scm.com](https://git-scm.com/download/win) and run the installer with default options. Then open **Git Bash** (installed alongside Git) instead of Command Prompt.
+- **Linux**: Run `sudo apt install git` (Ubuntu/Debian) or `sudo dnf install git` (Fedora).
+
+**4. Open a terminal**
+- **Mac**: Press `⌘ Space`, type *Terminal*, press Enter.
+- **Windows**: Open **Git Bash** from the Start menu (installed in step 3).
+- **Linux**: Open your system terminal app.
+
 ## Install
+
+Copy and paste these three commands into your terminal, pressing Enter after each one:
 
 ```bash
 git clone https://github.com/saldanhaAJ/morning-pics
